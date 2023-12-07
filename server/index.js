@@ -22,4 +22,4 @@ app.delete('/invoice/:id', deleteInvoice)
 app.put('/invoice/:id', editInvoice)
 
 // Open door to server
-ViteExpress.listen(app, 2319, () => console.log("2319 yo, what's chilling?"))
+ViteExpress.listen(app, 5000, () => console.log("5000 yo, what's chilling?"))
